@@ -1,0 +1,260 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+\usepackage{etex}
+\usepackage{multicol}
+\usepackage{hyperref}
+% Command for printing bubbles
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Data}\\\textbf{Science},
+        \textbf{Optimization}\\\textbf{},
+        \textbf{~~~~~OOP~~~~~~},
+        \textbf{Business}\\\textbf{Application},
+        \textbf{Machine}\\\textbf{Learning},
+        \textbf{Artificial}\\\textbf{Intelligence},
+        \textbf{Statistical}\\\textbf{Analysis}
+    }
+}
+
+% Programming skill bars
+\programmingone{{Python $\textbullet$ R  $\textbullet$ Matlab / 5}, 
+	{Java $\textbullet$ JS  / 3}, 
+	{Scipy $\textbullet$ Scikit $\textbullet$ Pandas / 4.5}, 
+	{R Shiny $\textbullet$ Plotly $\textbullet$ Docker / 4.5},
+	{SAS $\textbullet$ IBM Cognos $\textbullet$ Qlikview $\textbullet$ PowerBI/ 4}}
+\programmingtwo{{SQL $\textbullet$ Stan $\textbullet$ ExcelVBA / 4}, 
+	{HTML $\textbullet$ markdown $\textbullet$ \large \LaTeX / 3.5}, 
+	{Theano $\textbullet$ Keras $\textbullet$ TensorFlow / 4.5},
+	{matplotlib $\textbullet$ ggplot $\textbullet$ d3.js $\textbullet$ Bokeh / 4.5},
+	{Google Cloud $\textbullet$ AWS $\textbullet$ Azure / 4}}
+
+% Projects text
+\skillone{
+	\hskip{\textsf{\Large\skillevel{2}}} 
+	\textbf{DecAR} - An augmented reality interior decoration app for Android \\
+	\textbf{CIS*6320} - An implementation of the Bicubic interpolation algorithm in C++\\
+	
+}
+\skilltwo{
+	\textbf{DecAR} - An augmented reality interior decoration app for Android \\
+	\textbf{CIS*6320} - An implementation of the Bicubic interpolation algorithm in C++
+}
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\profilepic{img/profilepic.png}
+\cvname{VIET NGUYEN} % Your name
+\cvjobtitle{ Business graduate } % Job % title/career
+\cvlinkedin{/in/vietaalto}
+\cvgithub{vietaalto}
+\cvnumberphone{+358 451039491} % Phone number
+\cvsite{viet-aalto.com} % Personal website
+\cvmail{tuan.v.nguyen@aalto.fi} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 PAGE 1
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+\section{INTRODUCTION}
+\begin{itemize}
+	\item Business graduate with strong programming and IT skills.
+	\item Excellent in modeling, analysis \& technical skill
+	\item Specialize in data analytics \& and predictive modelling.
+%	\item Diverse education background in business: service \& operational management, finance \& accounting
+	\item Deep understanding in mathematics and statistics.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+I have diverse education background at master level at top Finnish universities, from business fields such as service \& operational management, finance \& accounting to computer science fields such as data science \& machine learning
+
+
+	\textbf{MSc. Information and Service Management}, 2015 - 2019% 
+	\hfill%
+	\textcolor{red}{\bfseries\MakeUppercase{Aalto University}} \\%
+	\textit{\small Completed 80/120 cr}
+	\hfill
+	\begin{tikzpicture}
+	{\draw[fill=maingray,maingray] (0,1) rectangle (8,1+0.1);
+	 \draw[fill=white,pblue](0,1) rectangle  (4.7,1+0.1) ;}
+	\end{tikzpicture}\\
+	\textbf{Major in Business Analytics}% 
+	\hfill%
+	\textcolor{black}{\MakeUppercase{School of Business}} \\
+	\textit{\small Completed 60/60 cr}
+	\hfill
+	\begin{tikzpicture}
+	{\draw[fill=maingray,maingray] (0,1) rectangle (8,1+0.1);
+		\draw[fill=white,pblue](0,1) rectangle (8,1+0.1);}
+	\end{tikzpicture}\\
+	Relevant courseworks completed and skills acquired: 
+	\begin{itemize}[noitemsep]
+			\item “Models in Marketing”
+			\begin{itemize}
+				\item Conducting a marketing research survey (Tools: Sawtooth software) 
+				\item Analyzing customer data using conjoint analysis \& factor analysis
+				\item Segmentation using clustering analysis (Tools: SAS)
+			\end{itemize}
+			\item “Data Science for Business”
+			\begin{itemize}
+				\item Process \& analyze data, make prediction \& interactive report (Tools: SPSS \& R)
+				\item Data Analysis Project: “Human Resources Analytics”
+			\end{itemize}
+			\item “Data Resources Management”
+			\begin{itemize}
+				\item Managing relational database (Tools: SQL)
+			\end{itemize}
+					\item  “Business Decisions 2”
+		\begin{itemize}
+			\item Dynamic programming \& solving business optimization problem (Excel Solver)
+		\end{itemize}
+	\end{itemize} 
+	\textbf{Minor in Machine Learning and Data Mining (Computer Science)}% 
+	\hfill%
+	\textcolor{black}{\MakeUppercase{School of Science}} \\
+	\textit{\small Completed 20/24 cr}
+	\hfill
+	\begin{tikzpicture}
+	{\draw[fill=maingray,maingray] (0,1) rectangle (8,1+0.1);
+		\draw[fill=white,pblue](0,1) rectangle (6.7,1+0.1);}
+	\end{tikzpicture}\\
+%	\textit{\small To be completed in April 2018} \\
+	Relevant courseworks and skills acquired:
+	\begin{itemize}[noitemsep]
+		\item Machine Learning: Basic Principles (Python, R, Matlab)
+		\item Information Visualization (d3.js, matplotlib, ggplot)
+		\item Bayesian Data Analysis (Python \& R)
+		\item Deep Learning (Theano \& Keras)
+%		\item Machine Learning: Advanced Probabilistic Methods (Matlab)
+	\end{itemize} 
+	\textbf{Thesis} \textit{\small 36 cr}: Ongoing. To be completed in 2018 \\
+%----------------------------------------------------------------------------------------------------	
+	
+	\textbf{MSc. Finance and Accounting}, 2015 - 2019% 
+	\hfill%
+	\textcolor{red}{\bfseries\MakeUppercase{Hanken school of economics}} \\%
+	\textit{Expected to start in Fall 2018}\\
+	\textbf{Specialization: Financial Markets, Investments and Asset Management} \\% 
+%----------------------------------------------------------------------------------------------------
+	\\
+	\textbf{BBA. International business}, 2009 - 2015% 
+	\hfill%
+	\textcolor{red}{\bfseries\MakeUppercase{LAHTI UNIVERSITY OF APPLIED}} \\%
+	\textcolor{white}{,} % 
+	\hfill%
+	\textcolor{red}{\bfseries\MakeUppercase{ SCIENCES}} \\%
+	\textit{Graduated (236/210 cr)}\\
+	\textbf{Thesis: Business valuation and pricing in merger and acquisition context. Case study: Intel - Altera} \\
+	\textbf{Major: International Business (in English)} \\% 
+	\textbf{Minor: Finance management (in Finnish)} \\% 
+	In addition to my main study in English, I also completed these accounting course \textbf{in Finnish}:
+
+	
+	
+	
+\newpage
+\makenewprofile
+
+%----------------------------------------------------------------------------------------
+%	 COMPETITION
+%----------------------------------------------------------------------------------------
+\hspace{13pt}
+\vspace{4mm} 
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+	\begin{multicols}{2}
+	\begin{itemize}[noitemsep]
+		\item Investointien kannattavuus
+		\item Johdon laskantatoimi
+		\item Kansainvälinen arvonlisäverotus
+		\item Kirjanpidon erityiskysymyksiä
+		\item Palkkahallinto
+		\item Sosiaalinen media markkinoinnin välineenä
+	\end{itemize} 
+\end{multicols}
+\section{EXPERIENCE}
+I created my own website viet-aalto.com using Amazon Web Services and Wordpress \\
+
+I am also working on various research papers and data analysis \& machine learning projects (published at my website viet-aalto.com)  with code published at my \href{github.com/vietaalto}{github} \\
+Some of the research papers and projects I'm currently working on including:
+
+
+\begin{itemize} % Environment for a list with descriptions
+	\item
+	\href{http://viet-aalto.com/index.php/2018/02/06/application-of-ai-in-telecom-industry/}{\textbf{Application of artificial intelligent in telecom industry}}
+	\item \href{http://viet-aalto.com/index.php/2018/02/06/application-of-machine-learning-in-self-organized-network-management}{\textbf{Application of machine learning in self-organized network management}}
+	\item
+	\href{http://viet-aalto.com/index.php/2018/02/06/telstra-network-disruptions/}{\textbf{Data analysis project: Predict service defaults on Telstra telecom network}}
+		\item
+	\href{http://viet-aalto.com/index.php/2018/01/14/xgboost-tuning/}{\textbf{Machine learning optimization: how to tuning XGBoost parameter}}
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	 PROFESSIONAL SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{PROFESSIONAL SKILLS}
+\begin{multicols}{2}
+\cvachievement{\textsf{\Large\skillevel{3}}}{Document writing skills \& Interactive report}{in both English and Finnish}
+\cvachievement{\textsf{\Large\skillevel{2}}}{Business Intelligence}{}
+\cvachievement{\textsf{\Large\skillevel{2}}}{Web development \& Web apps analytics}{}
+
+\columnbreak
+
+\cvachievement{\textsf{\Large\skillevel{3}}}{Data analytics \& Data processing}{}
+\cvachievement{\textsf{\Large\skillevel{3}}}{Machine learning \& Optimization}{}
+\cvachievement{\textsf{\Large\skillevel{3}}}{Process Modeling \& Data visualization}{}
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	 TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{TECHNICAL SKILLS}
+\begin{multicols}{2}
+\programmingone
+
+\columnbreak
+
+\programmingtwo
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	 PAGE 2
+%----------------------------------------------------------------------------------------
+
+
+
+\section{COMPETITION}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+	{}
+	{}
+	{GMAT score: 760}
+	{\href{https://www.mba.com/global}{GMAT competition}}
+	{}
+	{ Top 1\% score of all test takers in the world
+		}
+\end{twenty}
+
+\end{document} 
+
